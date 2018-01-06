@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hz.com.hzmultipletheme.colorUi.widget.ColorRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                                           android:layout_width="match_parent"
+                                                           android:layout_height="match_parent">
+
+    <hz.com.hzmultipletheme.colorUi.widget.ColorTextView
+        android:id="@+id/titile"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:background="?attr/menuBackground"
+        android:gravity="center"
+        android:text="@string/app_name"
+        android:textColor="?attr/colorPrimary"
+        android:textSize="18sp"/>
+
+    <hz.com.hzmultipletheme.colorUi.widget.ColorTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="@string/hello_world"
+        android:textColor="?attr/colorPrimaryDark"/>
+
+    <hz.com.hzmultipletheme.colorUi.widget.ColorLinerLayout
+        android:id="@+id/bottom"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:background="?attr/colorPrimaryDark"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="?attr/selectableItemBackground"
+            android:text="换肤"/>
+
+        <View
+            android:layout_width="1px"
+            android:layout_height="32px"
+            android:layout_gravity="center"
+            android:background="#cacaca"/>
+
+        <Button
+            android:id="@+id/btn_2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="?attr/selectableItemBackground"
+            android:text="下一页"/>
+
+    </hz.com.hzmultipletheme.colorUi.widget.ColorLinerLayout>
+
+</hz.com.hzmultipletheme.colorUi.widget.ColorRelativeLayout>
+
